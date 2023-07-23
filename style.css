@@ -47,7 +47,7 @@ body {
 .container-hero {
   background-color: rgba(0, 0, 0, 0.498);
   width: 60%;
-  height: 500px;
+  height: 450px;
   border-radius: 10px;
   opacity: 0.8;
   top: 0;
@@ -58,7 +58,7 @@ body {
   display: flex;
 }
 .left-hero {
-  width: 70%;
+  width: 80%;
   margin: 20px;
 }
 
@@ -73,17 +73,8 @@ body {
   font-family: "Courier New", Courier, monospace;
   text-indent: 50px;
   font-size: 25px;
-  line-height: 37px;
+  line-height: 40px;
   text-align: justify;
-}
-.left-hero button {
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  font-family: "Courier New", Courier, monospace;
-}
-.left-hero button:hover {
-  transform: scale(1.3);
-  z-index: 2;
 }
 
 .right-hero {
@@ -157,7 +148,7 @@ h2 {
 
 .image-container {
   position: relative;
-  width: 370px; /* Adjust the width and height according to your image size */
+  width: 370px;
   height: 275px;
   margin-top: 10px;
 }
@@ -166,6 +157,9 @@ h2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  box-shadow: 41px 25px 11px -8px rgba(255, 253, 253, 0.068);
+  -moz-box-shadow: 41px 25px 11px -8px rgba(255, 255, 255, 1);
+  transition: 0.3s;
 }
 
 .image-title {
@@ -185,4 +179,82 @@ h2 {
 
 .image-container:hover .image-title {
   opacity: 1;
+}
+
+.qoutes {
+  height: 100vh;
+  background-image: url(lydia-stojanov-i2jo-tozVwU-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.qoutes-container {
+  height: 400px;
+  background-color: rgba(176, 182, 183, 0.379);
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+h3 {
+  margin: 0;
+  font-size: 60px;
+  text-shadow: 4px 4px 0px rgba(222, 221, 221, 0.553);
+  color: rgba(15, 15, 15, 0.952);
+  font-style: italic;
+}
+
+.signup {
+  height: 150px;
+  width: 50%;
+  background-color: rgba(145, 142, 142, 0.71);
+  border-radius: 10px;
+  margin-top: 100px;
+  box-shadow: 21px 21px 14px 11px rgba(187, 186, 186, 0.75);
+  -webkit-box-shadow: 21px 21px 14px 11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 21px 21px 14px 11px rgba(0, 0, 0, 0.75);
+  display: flex;
+  text-align: start;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+.left-signup {
+  width: 70%;
+}
+h4 {
+  font-size: 30px;
+  text-align: start;
+  margin: 0;
+  color: rgb(0, 0, 0);
+  text-shadow: 4px 4px 0px rgba(222, 221, 221, 0.553);
+}
+.left-signup p {
+  font-size: 21px;
+}
+.right-signup button {
+  font-size: 25px;
+  color: rgb(89, 89, 89);
+}
+
+.copyright {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(118, 118, 118);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 0;
+}
+h6 {
+  font-size: 15px;
+  margin: 20px;
 }
